@@ -39,6 +39,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+ .navbar a{color:white;}
+ .navbar a:link {  color:white;}
+.navbar a:hover {color:white;}
 /* below is the code for the header section */
  #WashUBar{
    background-color:rgb(60, 61, 61) !important;
@@ -130,6 +133,9 @@ body {
   padding-bottom: 30px;
 }
 /* current students css */
+#upcoming{
+
+}
 #Events{
   margin-bottom:30px;
   margin-right: 40px;
@@ -151,40 +157,36 @@ body {
   float:right;
   margin-left: 20px;
 }
-a{
-  color:rgb(145, 9, 24);
-}
-a:link {  color:rgb(145, 9, 24);}
-
-/* a:visited {color: blue;} */
-
-a:hover {color:rgb(145, 9, 24);}
+.container a{color:rgb(145, 9, 24);}
+.container a:link {  color:rgb(145, 9, 24);}
+.container a:hover {color:rgb(145, 9, 24);}
 
 /* start of footer styling */
 #greyFoot{
-     background-color:rgb(60, 61, 61) !important;
+     background-color: rgb(80, 80, 80);
      color: white;
-     padding: 5px 0px;
+     padding: 20px 0px;
+     text-shadow: 2px 2px 3px rgb(30, 30, 30);
 }
 #greyFoot p{
+  font-size: 15px;
   margin: 0px;
 }
 
 #washuFoot{
-  background-color: rgb(158, 9, 24)!important;
+  background-color: rgb(158, 9, 24);
   color: white;
-  padding-top: 5px;
-  padding-bottom: 1px;
-  width: 100%;
+  padding: 8px 0px;
 }
 #washuFoot img{
   float: left;
   padding-right: 20px;
   padding-left: 100px;
-
 }
 #washuFoot h1{
-  font-size: 20px;
+  font-size: 17px;
+  font-family: 'Merriweather';
+  text-shadow: 2px 2px 3px rgb(30, 30, 30);
 }
 /* end of layout styling */
 
@@ -203,7 +205,8 @@ a:hover {color:rgb(145, 9, 24);}
       font-size: 15px;
     }
     iframe{
-      display: none;
+      width:300px;
+      height:160px;
     }
     img{
       max-width: 100%;
@@ -212,13 +215,26 @@ a:hover {color:rgb(145, 9, 24);}
     #sidebar{
       display: none;
     }
-    /* .post{
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    } */
-    /* #stories{
-        display: none;
-    } */
+    .container.content{
+      padding: 15px 30px;
+      font-size: 15px;
+    }
+    #current{
+      padding: 0px;
+      margin: 0px;
+      font-size: 12px;
+    }
+    #Events{
+      margin:0px;
+    }
+    #upcoming{
+      font-size: 20px;
+    }
+    #greyFoot p{
+      font-size: 10px ;
+    }
+    #greyFoot h4{
+      font-size: 15px ;
+    }
 }
 /* end of reponsive layout style */
